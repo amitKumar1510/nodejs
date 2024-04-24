@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbUrl = "mongodb+srv://demoDatabase:<Your DB Password>@cluster0.qeav4yb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const dbUrl = "write your cloud or mongoDB atals full path with user id and password";
 const Connection=async ()=>{
    await mongoose.connect(dbUrl)
   .then(() => {
